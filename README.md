@@ -228,3 +228,7 @@ ssh-keygen -t rsa
 (1)git push --set-upstream origin home  本地分支同步远程
 (2)git pull origin home:home 远程分支同步本地
 ```
+4. 删除远程分支
+```js
+git push origin --delete home 
+```
