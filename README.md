@@ -1,4 +1,3 @@
-## 版本库
 ### 1.基本配置
 1. 命令行
 ```js
@@ -197,5 +196,34 @@ function gb() {
 1. 问题的引出
 ```js
 创建的分支的主分支状态和当前的主分支状态的差异
-主分支向前走了,改变子分支的
+主分支向前走了,改变子分支的创建点
+```
+2. 改变子分支的创建点
+```js
+(1)确认在子分支中
+(2)git rebase master
+(3)git checkout master
+(4)git merger home
+```
+### 9.SSH密钥链接
+1. 生成密钥
+```js
+ssh-keygen -t rsa
+```
+2. 远程填写密钥
+![对象和函数的原型链](D:\workCode\FrontEndCode\Git\ssh.png)
+### 10.连接远程仓库
+1. 连接远程仓库
+```js
+(1)初始化了仓库
+(2)git remote add origin [链接]
+```
+2. 查看远程仓库
+```js
+(1)git remote -v 查看远程仓库连接
+(2)git branch -a 查看远程分支本地分支
+```
+3. 同步远程分支
+```js
+(1)
 ```
