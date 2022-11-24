@@ -225,5 +225,6 @@ ssh-keygen -t rsa
 ```
 3. 同步远程分支
 ```js
-(1)
+(1)git push --set-upstream origin home  本地分支同步远程
+(2)git pull origin home:home 远程分支同步本地
 ```
