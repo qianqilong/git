@@ -230,5 +230,11 @@ ssh-keygen -t rsa
 ```
 4. 删除远程分支
 ```js
-git push origin --delete home 
+(1)git push origin --delete home 
+```
+### 11.git自动部署
+1. 了解
+```js
+通过钩子实现触发服务端的文件
+文件执行服务端拉取代码
 ```
